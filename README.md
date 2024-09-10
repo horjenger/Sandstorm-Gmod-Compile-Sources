@@ -51,4 +51,4 @@ Be careful and use the files from the **L105_P226** folder as reference.
 Единственная причина, по которой это работает, заключается в том, что многие пистолеты в Insurgency используют одну и ту же анимацию.
 Будтье внимательны и используйте файлы из папки **L105_P226** как референс.
 
-[![Watch the video](https://youtu.be/TW6Bbpdl_vk?si=zuRBQ3Ddi7C3tpxp)
+[![Watch the video](https://img.youtube.com/vi/TW6Bbpdl_vk/maxresdefault.jpg)](https://youtu.be/TW6Bbpdl_vk)
