@@ -15,11 +15,9 @@ Step 4: (Optional) Now change materials path, attachments, and bones if you want
 
 Step 5: Compile and then decompile your model (very strange i know).
 
-Step 6: Add `$include gmod_bones_follow_sandstorm.qci` in the bottom of decompiled qc.
+Step 6: Add `$include gmod_bones_follow_sandstorm.qci` and `$include 2nd_stage_compile.qci` in the bottom of decompiled qc.
 
-Step 7: Copy lines from `2nd_stage_compile.txt` and place in the bottom of decompiled qc.
-
-Step 8: Compile again.
+Step 7: Compile again.
 
 Done! You can edit the files as you wish. I tried to make everything as universal as possible.
 The only reason this works is because many pistols in Insurgency use the same animation.
@@ -41,11 +39,9 @@ Be careful and use the files from the **L105_P226** folder as reference.
 
 Шаг 5: Скомпилируйте, а затем декомпилируйте свою модель (очень странно, я знаю).
 
-Шаг 6: Добавьте `$include gmod_bones_follow_sandstorm.qci` в конец декомпилированного qc.
+Шаг 6: Добавьте `$include gmod_bones_follow_sandstorm.qci` и `$include 2nd_stage_compile.qci` в конец декомпилированного qc.
 
-Шаг 7: Скопируйте строки из `2nd_stage_compile.txt` и поместите в конец декомпилированного qc.
-
-Шаг 8: Скомпилируйте снова.
+Шаг 7: Скомпилируйте снова.
 
 Готово! Вы можете редактировать файлы по своему усмотрению. Я старался сделать все максимально универсальным.
 Единственная причина, по которой это работает, заключается в том, что многие пистолеты в Insurgency используют одну и ту же анимацию.
