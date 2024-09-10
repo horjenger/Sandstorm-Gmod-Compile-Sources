@@ -126,22 +126,22 @@ $weightlist "weights_delta_ik_sprint" {
 	 "b_ch_r_forearm_twist5" 1
 	 "b_ch_r_forearm_twist6" 1
 	 "b_ch_r_forearm_twist7" 1
-	 "b_ch_r_hand" 1
-	 "b_ch_r_finger_00" 1
-	 "b_ch_r_finger_01" 1
-	 "b_ch_r_finger_02" 1
-	 "b_ch_r_finger_10" 1
-	 "b_ch_r_finger_11" 1
-	 "b_ch_r_finger_12" 1
-	 "b_ch_r_finger_20" 1
-	 "b_ch_r_finger_21" 1
-	 "b_ch_r_finger_22" 1
-	 "b_ch_r_finger_30" 1
-	 "b_ch_r_finger_31" 1
-	 "b_ch_r_finger_32" 1
-	 "b_ch_r_finger_40" 1
-	 "b_ch_r_finger_41" 1
-	 "b_ch_r_finger_42" 1
+	 "b_ch_r_hand" 0
+	 "b_ch_r_finger_00" 0
+	 "b_ch_r_finger_01" 0
+	 "b_ch_r_finger_02" 0
+	 "b_ch_r_finger_10" 0
+	 "b_ch_r_finger_11" 0
+	 "b_ch_r_finger_12" 0
+	 "b_ch_r_finger_20" 0
+	 "b_ch_r_finger_21" 0
+	 "b_ch_r_finger_22" 0
+	 "b_ch_r_finger_30" 0
+	 "b_ch_r_finger_31" 0
+	 "b_ch_r_finger_32" 0
+	 "b_ch_r_finger_40" 0
+	 "b_ch_r_finger_41" 0
+	 "b_ch_r_finger_42" 0
 	 "b_camera" 0
 	 "ik_hand_root" 0
 	 "ik_hand_r" 0
@@ -207,10 +207,10 @@ $weightlist "weights_delta_draw" {
 	 "b_ch_r_forearm_twist5" 1
 	 "b_ch_r_forearm_twist6" 1
 	 "b_ch_r_forearm_twist7" 1
-	 "b_ch_r_hand" 1
-	 "b_ch_r_finger_00" 1
-	 "b_ch_r_finger_01" 1
-	 "b_ch_r_finger_02" 1
+	 "b_ch_r_hand" 0
+	 "b_ch_r_finger_00" 0
+	 "b_ch_r_finger_01" 0
+	 "b_ch_r_finger_02" 0
 	 "b_ch_r_finger_10" 0
 	 "b_ch_r_finger_11" 0
 	 "b_ch_r_finger_12" 0
@@ -288,10 +288,10 @@ $weightlist "weights_delta_melee" {
 	 "b_ch_r_forearm_twist5" 1
 	 "b_ch_r_forearm_twist6" 1
 	 "b_ch_r_forearm_twist7" 1
-	 "b_ch_r_hand" 1
-	 "b_ch_r_finger_00" 1
-	 "b_ch_r_finger_01" 1
-	 "b_ch_r_finger_02" 1
+	 "b_ch_r_hand" 0
+	 "b_ch_r_finger_00" 0
+	 "b_ch_r_finger_01" 0
+	 "b_ch_r_finger_02" 0
 	 "b_ch_r_finger_10" 0
 	 "b_ch_r_finger_11" 0
 	 "b_ch_r_finger_12" 0
@@ -851,7 +851,6 @@ $sequence "delta_draw" {
 	fadeout 0.2
 	hidden
 	fps 30
-	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 35 35 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 35 35 target 1
 	weightlist "weights_delta_draw"
 }
@@ -865,7 +864,6 @@ $sequence "delta_holster" {
 	fadeout 0.2
 	hidden
 	fps 30
-	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 19 19 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 19 19 target 1
 	weightlist "weights_delta_draw"
 }
@@ -879,7 +877,6 @@ $sequence "delta_melee" {
 	fadeout 0.2
 	hidden
 	fps 30
-	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 46 46 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 46 46 target 1
 	weightlist "weights_delta_melee"
 }

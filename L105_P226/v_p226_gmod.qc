@@ -175,7 +175,7 @@ $weightlist "weights_sprint" {
 	"b_ch_l_upperarm" 1
 	"b_ch_r_forearm" 1
 	"b_ch_l_forearm" 1
-	"b_ch_r_hand" 1
+	"b_ch_r_hand" 0
 	"b_ch_l_hand" 1
 	"b_wpn_barrel" 0
 	"b_wpn_slide" 0
@@ -244,63 +244,6 @@ $weightlist "weights_dryfire" {
 	"b_wpn_hammer" 0
 }
 
-$weightlist "weights_down" {
-	"b_root" 0
-	"b_ch_middle" 0
-	"b_ch_spine1" 0
-	"b_ch_spine2" 0
-	"b_ch_l_clavical" 1
-	"b_ch_l_upperarm" 1
-	"b_ch_l_forearm" 1
-	"b_ch_l_hand" 1
-	"b_ch_l_finger_00" 0
-	"b_ch_l_finger_01" 0
-	"b_ch_l_finger_02" 0
-	"b_ch_l_finger_40" 0
-	"b_ch_l_finger_41" 0
-	"b_ch_l_finger_42" 0
-	"b_ch_l_finger_20" 0
-	"b_ch_l_finger_21" 0
-	"b_ch_l_finger_22" 0
-	"b_ch_l_finger_30" 0
-	"b_ch_l_finger_31" 0
-	"b_ch_l_finger_32" 0
-	"b_ch_l_finger_10" 0
-	"b_ch_l_finger_11" 0
-	"b_ch_l_finger_12" 0
-	"b_ch_r_clavical" 1
-	"b_ch_r_upperarm" 1
-	"b_ch_r_forearm" 1
-	"b_ch_r_hand" 1
-	"b_ch_r_finger_00" 0
-	"b_ch_r_finger_01" 0
-	"b_ch_r_finger_02" 0
-	"b_ch_r_finger_10" 0
-	"b_ch_r_finger_11" 0
-	"b_ch_r_finger_12" 0
-	"b_ch_r_finger_20" 0
-	"b_ch_r_finger_21" 0
-	"b_ch_r_finger_22" 0
-	"b_ch_r_finger_30" 0
-	"b_ch_r_finger_31" 0
-	"b_ch_r_finger_32" 0
-	"b_ch_r_finger_40" 0
-	"b_ch_r_finger_41" 0
-	"b_ch_r_finger_42" 0
-	"b_wpn" 1
-	"b_wpn_eject" 0
-	"b_wpn_mag" 0
-	"b_wpn_mag_b2" 0
-	"b_wpn_mag_follow" 0
-	"b_wpn_mag_b1" 0
-	"b_wpn_muzzle" 0
-	"b_wpn_trigger" 0
-	"b_wpn_barrel" 0
-	"b_wpn_slide" 0
-	"b_wpn_sliderelease" 0
-	"b_wpn_hammer" 0
-}
-
 $weightlist "weights_draw" {
 	"b_root" 0
 	"b_ch_middle" 0
@@ -313,7 +256,7 @@ $weightlist "weights_draw" {
 	"b_ch_r_clavical" 0
 	"b_ch_r_upperarm" 1
 	"b_ch_r_forearm" 1
-	"b_ch_r_hand" 1
+	"b_ch_r_hand" 0
 	"b_ch_r_finger_10" 0
 	"b_ch_r_finger_11" 0
 	"b_ch_r_finger_12" 0
@@ -368,7 +311,7 @@ $weightlist "weights_melee" {
 	"b_ch_r_finger_40" 0
 	"b_ch_r_finger_41" 0
 	"b_ch_r_finger_42" 0
-	"b_ch_r_hand" 1
+	"b_ch_r_hand" 0
 	"b_ch_l_hand" 1
 	"b_wpn_barrel" 0
 	"b_wpn_slide" 0
@@ -389,7 +332,7 @@ $weightlist "weights_holster" {
 	"b_ch_r_clavical" 0
 	"b_ch_r_upperarm" 1
 	"b_ch_r_forearm" 1
-	"b_ch_r_hand" 1
+	"b_ch_r_hand" 0
 	"b_ch_r_finger_10" 0
 	"b_ch_r_finger_11" 0
 	"b_ch_r_finger_12" 0
@@ -513,7 +456,6 @@ $sequence "base_idle" {
 	loop
 	ikrule rhand touch "b_wpn" usesource
 	ikrule lhand touch "b_wpn" usesource
-	// we can blend left hand here since we only use base_ sequences
 }
 
 $sequence "empty_idle" {
@@ -523,7 +465,6 @@ $sequence "empty_idle" {
 	loop
 	ikrule rhand touch "b_wpn" usesource
 	ikrule lhand touch "b_wpn" usesource
-	// we can blend left hand here since we only use base_ sequences
 }
 
 $sequence "base_sprint" {
