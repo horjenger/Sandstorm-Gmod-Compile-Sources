@@ -766,6 +766,3 @@ $sequence "base_ready" {
 //DO NOT USE
 
 //$include "C:\Users\herjenger\Desktop\Sandstorm Reloaded compile sources\Sandstorm-Gmod-Compile-Sources\Pistol universal compile\gmod_bones_follow_sandstorm.qci"
-
-
-
