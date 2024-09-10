@@ -1,0 +1,159 @@
+
+$definebone "b_root" "" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "b_ch_middle" "b_root" -0.000002 0.000006 -20.680012 0 -89.999982 0 0 0 0 0 0 0
+$definebone "b_ch_spine1" "b_ch_middle" -0.005067 0 3.242138 -89.954377 -90.004456 0 0 0 0 0 0 0
+$definebone "b_ch_spine2" "b_ch_spine1" 6.363436 -0.004107 0.002943 0.027101 -0.008995 -35.869223 0 0 0 0 0 0
+$definebone "b_ch_l_clavical" "b_ch_spine2" 6.363435 0.000024 1.508112 0.000061 -94.839929 -89.999579 0 0 0 0 0 0
+$definebone "b_ch_l_upperarm" "b_ch_l_clavical" 5.853647 -0.000015 -0.000005 40.92831 -147.698469 -56.789229 0 0 0 0 0 0
+$definebone "b_ch_l_forearm" "b_ch_l_upperarm" 10.39053 -0.000068 -0.000006 0.000058 -80.342661 -0.000006 0 0 0 0 0 0
+$definebone "b_ch_l_forearm_twist1" "b_ch_l_forearm" 0 0.000002 0 -0.000053 0.000582 -5.084319 0 0 0 0 0 0
+$definebone "b_ch_l_forearm_twist2" "b_ch_l_forearm" 1.217917 0.000007 -0.000001 0.000116 0.000238 -10.167945 0 0 0 0 0 0
+$definebone "b_ch_l_forearm_twist3" "b_ch_l_forearm" 2.435834 0.000017 -0.000006 0.00029 0.000468 -15.252086 0 0 0 0 0 0
+$definebone "b_ch_l_forearm_twist4" "b_ch_l_forearm" 3.653753 0.000023 -0.00001 0.000178 0.00018 -20.335768 0 0 0 0 0 0
+$definebone "b_ch_l_forearm_twist5" "b_ch_l_forearm" 4.871673 0.000029 -0.000013 0.000003 -0.00022 -25.41951 0 0 0 0 0 0
+$definebone "b_ch_l_forearm_twist6" "b_ch_l_forearm" 6.089591 0.000037 -0.000016 0.000403 0.00075 -30.504103 0 0 0 0 0 0
+$definebone "b_ch_l_forearm_twist7" "b_ch_l_forearm" 7.307508 0.000044 -0.00002 0.000232 0.000408 -35.587219 0 0 0 0 0 0
+$definebone "b_ch_l_hand" "b_ch_l_forearm" 8.525427 0.00005 -0.000023 -13.840243 19.200046 -131.932986 0 0 0 0 0 0
+$definebone "b_ch_l_finger_00" "b_ch_l_hand" 0.555144 0.315169 -0.822498 31.400657 5.284739 111.465614 0 0 0 0 0 0
+$definebone "b_ch_l_finger_01" "b_ch_l_finger_00" 1.556977 0 0.000004 -0.000104 21.930783 -0.000409 0 0 0 0 0 0
+$definebone "b_ch_l_finger_02" "b_ch_l_finger_01" 1.221098 -0.000002 0 -0.000215 53.837914 0.000061 0 0 0 0 0 0
+$definebone "b_ch_l_finger_40" "b_ch_l_hand" 2.426953 -0.353618 1.013778 -21.181108 33.417414 -20.515334 0 0 0 0 0 0
+$definebone "b_ch_l_finger_41" "b_ch_l_finger_40" 1.104664 -0.000002 -0.000003 -0.00005 42.227942 0.00017 0 0 0 0 0 0
+$definebone "b_ch_l_finger_42" "b_ch_l_finger_41" 0.908445 0.000003 0.000001 0.000005 20.925155 -0.000113 0 0 0 0 0 0
+$definebone "b_ch_l_finger_20" "b_ch_l_hand" 2.813025 -0.266289 -0.544274 -31.696312 12.046722 1.021183 0 0 0 0 0 0
+$definebone "b_ch_l_finger_21" "b_ch_l_finger_20" 1.445756 -0.000004 -0.000001 -0.000168 51.461954 -0.000051 0 0 0 0 0 0
+$definebone "b_ch_l_finger_22" "b_ch_l_finger_21" 1.053747 0.000002 0 -0.000057 29.230587 0.000178 0 0 0 0 0 0
+$definebone "b_ch_l_finger_30" "b_ch_l_hand" 2.689437 -0.342874 0.236178 -27.3859 27.892609 -11.661582 0 0 0 0 0 0
+$definebone "b_ch_l_finger_31" "b_ch_l_finger_30" 1.439796 -0.000004 -0.000001 -0.000062 49.203023 -0.000004 0 0 0 0 0 0
+$definebone "b_ch_l_finger_32" "b_ch_l_finger_31" 0.98299 -0.000013 -0.000002 -0.000116 26.33716 0.000111 0 0 0 0 0 0
+$definebone "b_ch_l_finger_10" "b_ch_l_hand" 2.828084 -0.209495 -1.286468 -31.256735 10.84111 1.700944 0 0 0 0 0 0
+$definebone "b_ch_l_finger_11" "b_ch_l_finger_10" 1.382524 0.000013 -0.000001 -0.000003 20.544828 0.00006 0 0 0 0 0 0
+$definebone "b_ch_l_finger_12" "b_ch_l_finger_11" 0.865909 -0.000003 0.000001 -0.000061 61.615929 0.000172 0 0 0 0 0 0
+$definebone "b_ch_r_clavical" "b_ch_spine2" 6.363451 0.000018 -1.508049 27.676954 -80.205955 94.605585 0 0 0 0 0 0
+$definebone "b_ch_r_upperarm" "b_ch_r_clavical" 5.853651 0.000054 0.000017 -15.974064 -160.328036 47.304425 0 0 0 0 0 0
+$definebone "b_ch_r_forearm" "b_ch_r_upperarm" 10.390543 0.000134 0.000002 -0.000097 -61.607746 0.000009 0 0 0 0 0 0
+$definebone "b_ch_r_forearm_twist1" "b_ch_r_forearm" -0.000006 -0.000002 0.000002 0.000017 0.00052 4.106632 0 0 0 0 0 0
+$definebone "b_ch_r_forearm_twist2" "b_ch_r_forearm" 1.217915 0.000005 0 0.000131 0.000403 8.213365 0 0 0 0 0 0
+$definebone "b_ch_r_forearm_twist3" "b_ch_r_forearm" 2.435829 0.000009 -0.000001 0.000304 0.000062 12.320153 0 0 0 0 0 0
+$definebone "b_ch_r_forearm_twist4" "b_ch_r_forearm" 3.653744 0.00001 -0.000004 0.000476 0.000347 16.426994 0 0 0 0 0 0
+$definebone "b_ch_r_forearm_twist5" "b_ch_r_forearm" 4.871662 0.000016 -0.000004 0.000074 0.000463 20.533564 0 0 0 0 0 0
+$definebone "b_ch_r_forearm_twist6" "b_ch_r_forearm" 6.089579 0.00002 -0.000005 0.000017 0.000978 24.640404 0 0 0 0 0 0
+$definebone "b_ch_r_forearm_twist7" "b_ch_r_forearm" 7.307506 0.000026 -0.000007 0.000131 0.000061 28.746736 0 0 0 0 0 0
+$definebone "b_ch_r_hand" "b_ch_r_forearm" 8.525414 0.00003 -0.00001 17.539398 12.365176 124.675514 0 0 0 0 0 0
+$definebone "b_ch_r_finger_00" "b_ch_r_hand" 0.555155 0.315169 0.822496 -21.95982 42.849154 -139.102021 0 0 0 0 0 0
+$definebone "b_ch_r_finger_01" "b_ch_r_finger_00" 1.556969 -0.000004 -0.000006 -10.869344 39.149022 14.580468 0 0 0 0 0 0
+$definebone "b_ch_r_finger_02" "b_ch_r_finger_01" 1.221088 0.000002 0 -8.114054 42.974294 -3.055399 0 0 0 0 0 0
+$definebone "b_ch_r_finger_10" "b_ch_r_hand" 2.828089 -0.20952 1.286465 29.704827 17.032595 7.803967 0 0 0 0 0 0
+$definebone "b_ch_r_finger_11" "b_ch_r_finger_10" 1.382522 0.000013 0.000002 -0.000054 22.57321 -0.00001 0 0 0 0 0 0
+$definebone "b_ch_r_finger_12" "b_ch_r_finger_11" 0.865912 0.000003 0.000001 -0.000048 54.684936 -0.000061 0 0 0 0 0 0
+$definebone "b_ch_r_finger_20" "b_ch_r_hand" 2.813026 -0.266317 0.544265 38.856984 71.386023 34.935519 0 0 0 0 0 0
+$definebone "b_ch_r_finger_21" "b_ch_r_finger_20" 1.445755 0.000011 -0.000003 -4.207162 58.768676 -5.016234 0 0 0 0 0 0
+$definebone "b_ch_r_finger_22" "b_ch_r_finger_21" 1.05375 0.000005 -0.000002 0.000277 73.117892 -0.000044 0 0 0 0 0 0
+$definebone "b_ch_r_finger_30" "b_ch_r_hand" 2.689432 -0.342902 -0.236184 28.388184 80.647138 34.531476 0 0 0 0 0 0
+$definebone "b_ch_r_finger_31" "b_ch_r_finger_30" 1.439796 0.00001 0.000001 -3.652591 51.771857 -1.367475 0 0 0 0 0 0
+$definebone "b_ch_r_finger_32" "b_ch_r_finger_31" 0.982991 0.000008 -0.000002 -0.000165 60.502854 0.000243 0 0 0 0 0 0
+$definebone "b_ch_r_finger_40" "b_ch_r_hand" 2.42695 -0.353646 -1.013783 17.779524 84.838572 36.292343 0 0 0 0 0 0
+$definebone "b_ch_r_finger_41" "b_ch_r_finger_40" 1.104658 0.000011 -0.000001 0.000184 31.599088 -0.000273 0 0 0 0 0 0
+$definebone "b_ch_r_finger_42" "b_ch_r_finger_41" 0.908445 0.000002 -0.000002 -0.000059 47.533957 0.000018 0 0 0 0 0 0
+$definebone "b_camera" "b_root" 0 0 0 0 0 0.000057 0 0 0 0 0 0
+$definebone "ik_hand_root" "b_root" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ik_hand_r" "ik_hand_root" -3.039831 -9.408563 -4.970419 -23.674788 -98.902717 -3.042807 0 0 0 0 0 0
+$definebone "ik_hand_l" "ik_hand_root" -0.887548 -9.506862 -6.460958 -23.844991 -109.379052 158.06014 0 0 0 0 0 0
+$definebone "b_wpn" "b_root" -2.441874 -13.688155 -2.322178 0 0 0.000115 0 0 0 0 0 0
+$definebone "b_wpn_eject" "b_wpn" -0.233156 1.318205 1.036152 -49.088559 179.999964 0 0 0 0 0 0 0
+$definebone "b_wpn_hammer" "b_wpn" -0.000728 2.977416 0.066356 0 0 0 0 0 0 0 0 0
+$definebone "b_wpn_mag" "b_wpn" 2.440701 15.715075 0.901135 0 0 -0.000115 0 0 0 0 0 0
+$definebone "b_wpn_mag_b1" "b_wpn_mag" -2.441433 -14.175757 -0.381438 0 0 0 0 0 0 0 0 0
+$definebone "b_wpn_mag_b2" "b_wpn_mag" -2.441433 -14.042585 -0.732392 0 0 0 0 0 0 0 0 0
+$definebone "ik_hand_wpn_l" "b_wpn" 1.554325 4.181292 -4.138788 -23.845212 -109.37951 158.060413 0 0 0 0 0 0
+$definebone "b_wpn_muzzle" "b_wpn" -0.000402 -3.698399 0.813783 -0.000115 -89.999982 0.000057 0 0 0 0 0 0
+$definebone "b_wpn_slide" "b_wpn" 0 1.424365 0.837453 0 0 -0.000229 0 0 0 0 0 0
+$definebone "b_wpn_sliderelease" "b_wpn" 0.50975 2.103058 0.120241 0 0 0 0 0 0 0 0 0
+$definebone "b_wpn_trigger" "b_wpn" -0.000726 0.48578 -0.232128 0 0 0 0 0 0 0 0 0
+$definebone "ik_hand_wpn_r" "b_wpn" -0.597957 4.279587 -2.648257 -23.674677 -98.902826 -3.042578 0 0 0 0 0 0
+$definebone "b_wpn_barrel" "b_wpn" -0.000726 -0.270146 0.026927 0 0 0 0 0 0 0 0 0
+$definebone "b_wpn_mag_follow" "b_wpn_mag" -2.441433 -13.999615 -0.669602 0 0 0 0 0 0 0 0 0
+$definebone "A_Optic" "" 0 0 0 0 -180.000005 -90.000003 0 0 0 0 0 0
+$definebone "A_Foregrip" "" 0 0 0 0 -180.000005 0 0 0 0 0 0 0
+$definebone "b_wpn_laser" "b_wpn" -0.007512 -4.334089 -0.92344 0 -89.999982 0 0 0 0 0 0 0
+$definebone "b_wpn_flash" "b_wpn" -0.007513 -2.974146 -0.923441 0 -89.999982 0 0 0 0 0 0 0
+
+$bonemerge "b_root"
+$bonemerge "b_ch_middle"
+$bonemerge "b_ch_spine1"
+$bonemerge "b_ch_spine2"
+$bonemerge "b_ch_l_clavical"
+$bonemerge "b_ch_l_upperarm"
+$bonemerge "b_ch_l_forearm"
+$bonemerge "b_ch_l_forearm_twist1"
+$bonemerge "b_ch_l_forearm_twist2"
+$bonemerge "b_ch_l_forearm_twist3"
+$bonemerge "b_ch_l_forearm_twist4"
+$bonemerge "b_ch_l_forearm_twist5"
+$bonemerge "b_ch_l_forearm_twist6"
+$bonemerge "b_ch_l_forearm_twist7"
+$bonemerge "b_ch_l_hand"
+$bonemerge "b_ch_l_finger_00"
+$bonemerge "b_ch_l_finger_01"
+$bonemerge "b_ch_l_finger_02"
+$bonemerge "b_ch_l_finger_40"
+$bonemerge "b_ch_l_finger_41"
+$bonemerge "b_ch_l_finger_42"
+$bonemerge "b_ch_l_finger_20"
+$bonemerge "b_ch_l_finger_21"
+$bonemerge "b_ch_l_finger_22"
+$bonemerge "b_ch_l_finger_30"
+$bonemerge "b_ch_l_finger_31"
+$bonemerge "b_ch_l_finger_32"
+$bonemerge "b_ch_l_finger_10"
+$bonemerge "b_ch_l_finger_11"
+$bonemerge "b_ch_l_finger_12"
+$bonemerge "b_ch_r_clavical"
+$bonemerge "b_ch_r_upperarm"
+$bonemerge "b_ch_r_forearm"
+$bonemerge "b_ch_r_forearm_twist1"
+$bonemerge "b_ch_r_forearm_twist2"
+$bonemerge "b_ch_r_forearm_twist3"
+$bonemerge "b_ch_r_forearm_twist4"
+$bonemerge "b_ch_r_forearm_twist5"
+$bonemerge "b_ch_r_forearm_twist6"
+$bonemerge "b_ch_r_forearm_twist7"
+$bonemerge "b_ch_r_hand"
+$bonemerge "b_ch_r_finger_00"
+$bonemerge "b_ch_r_finger_01"
+$bonemerge "b_ch_r_finger_02"
+$bonemerge "b_ch_r_finger_10"
+$bonemerge "b_ch_r_finger_11"
+$bonemerge "b_ch_r_finger_12"
+$bonemerge "b_ch_r_finger_20"
+$bonemerge "b_ch_r_finger_21"
+$bonemerge "b_ch_r_finger_22"
+$bonemerge "b_ch_r_finger_30"
+$bonemerge "b_ch_r_finger_31"
+$bonemerge "b_ch_r_finger_32"
+$bonemerge "b_ch_r_finger_40"
+$bonemerge "b_ch_r_finger_41"
+$bonemerge "b_ch_r_finger_42"
+$bonemerge "b_camera"
+$bonemerge "ik_hand_root"
+$bonemerge "ik_hand_r"
+$bonemerge "ik_hand_l"
+$bonemerge "b_wpn"
+$bonemerge "b_wpn_eject"
+$bonemerge "b_wpn_hammer"
+$bonemerge "b_wpn_mag"
+$bonemerge "b_wpn_mag_b1"
+$bonemerge "b_wpn_mag_b2"
+$bonemerge "ik_hand_wpn_l"
+$bonemerge "b_wpn_muzzle"
+$bonemerge "b_wpn_slide"
+$bonemerge "b_wpn_sliderelease"
+$bonemerge "b_wpn_trigger"
+$bonemerge "ik_hand_wpn_r"
+$bonemerge "b_wpn_barrel"
+$bonemerge "b_wpn_mag_follow"
+$bonemerge "A_Optic"
+$bonemerge "A_Foregrip"
+$bonemerge "b_wpn_laser"
+$bonemerge "b_wpn_flash"
+
