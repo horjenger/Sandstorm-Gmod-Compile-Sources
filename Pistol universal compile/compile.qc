@@ -492,6 +492,7 @@ $sequence delta_trigger delta {
 	weightlist "weights_trigger"
 }
 
+//Useless for glock and pistols without hammer
 $animation "a_delta_hammer_fire" "C:\...\...\sandstorm_source_files\release\weapons\p226\anims\an_1p_226_b_ready.smd" frames 0 0 subtract "idle" 0
 
 $sequence "delta_hammer_fire" delta {
@@ -499,6 +500,7 @@ $sequence "delta_hammer_fire" delta {
 	weightlist "weights_hammer_fire"
 }
 
+//Empty layer
 $animation "a_idle_empty" "C:\...\...\sandstorm_source_files\release\weapons\p226\anims\an_1p_226_b_idle_empty.smd" frames 0 1
 
 $sequence "empty_layer" delta {
