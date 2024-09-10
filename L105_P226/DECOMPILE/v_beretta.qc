@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "weapons\c_p226_l105.mdl"
+$modelname "weapons\c_sr_l105.mdl"
 
 $bodygroup "Weapon"
 {
@@ -38,6 +38,6 @@ $include "v_beretta_bone.qci"
 
 $include "v_beretta_animation.qci"
 
-$include "C:\Users\herjenger\Desktop\Sandstorm Reloaded compile sources\Sandstorm-Gmod-Compile-Sources\Pistol universal compile\gmod_bones_follow_sandstorm.qci"
+$include "C:\Users\herjenger\Desktop\Sandstorm Reloaded compile sources\Sandstorm-Gmod-Compile-Sources\gmod_bones_follow_sandstorm.qci"
 
 $include "C:\Users\herjenger\Desktop\Sandstorm Reloaded compile sources\Sandstorm-Gmod-Compile-Sources\L105_P226\2nd_stage_compile.qci"

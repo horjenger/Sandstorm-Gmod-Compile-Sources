@@ -453,7 +453,10 @@ $sequence "empty_layer" delta {
 $sequence "base_idle" {
 	$macro_idlesequence
 	activity "ACT_VM_IDLE" 1
+	fadein 0.2
+	fadeout 0.2
 	loop
+	fps 30
 	ikrule rhand touch "b_wpn" usesource
 	ikrule lhand touch "b_wpn" usesource
 }
@@ -461,8 +464,11 @@ $sequence "base_idle" {
 $sequence "empty_idle" {
 	$macro_idlesequence
 	activity "ACT_VM_IDLE_EMPTY" 1
+	fadein 0.2
+	fadeout 0.2
 	addlayer "empty_layer"
 	loop
+	fps 30
 	ikrule rhand touch "b_wpn" usesource
 	ikrule lhand touch "b_wpn" usesource
 }
@@ -483,6 +489,8 @@ $sequence "base_sprint" {
 $sequence "empty_sprint" {
 	$macro_idlesequence
 	activity "ACT_VM_SPRINT_EMPTY" 1
+	fadein 0.2
+	fadeout 0.2
 	addlayer "delta_ik_sprint"
 	addlayer "empty_layer"
 	loop
@@ -496,7 +504,10 @@ $sequence "base_draw" {
 	$macro_idlesequence
 	frames 0 35
 	activity "ACT_VM_DRAW" 1
+	fadein 0.2
+	fadeout 0.2
 	addlayer "delta_draw"
+	fps 30
 	ikrule rhand touch "b_wpn" usesource
 }
 
@@ -504,6 +515,8 @@ $sequence "empty_draw" {
 	$macro_idlesequence
 	frames 0 35
 	activity "ACT_VM_DRAW_EMPTY" 1
+	fadein 0.2
+	fadeout 0.2
 	addlayer "delta_draw"
 	addlayer "empty_layer"
 	fps 30
@@ -514,6 +527,8 @@ $sequence "base_holster" {
 	$macro_idlesequence
 	frames 0 19
 	activity "ACT_VM_HOLSTER" 1
+	fadein 0.2
+	fadeout 0.2
 	addlayer "delta_holster"
 	fps 30
 	ikrule rhand touch "b_wpn" usesource
@@ -523,8 +538,11 @@ $sequence "empty_holster" {
 	$macro_idlesequence
 	frames 0 19
 	activity "ACT_VM_HOLSTER_EMPTY" 1
+	fadein 0.2
+	fadeout 0.2
 	addlayer "delta_holster"
 	addlayer "empty_layer"
+	fps 30
 	ikrule rhand touch "b_wpn" usesource
 }
 
@@ -532,7 +550,10 @@ $sequence "base_melee" {
 	$macro_idlesequence
 	frames 0 46
 	activity "ACT_VM_HITCENTER" 1
+	fadein 0.2
+	fadeout 0.2
 	addlayer "delta_melee"
+	fps 30
 	ikrule rhand touch "b_wpn" usesource
 }
 
@@ -540,14 +561,19 @@ $sequence "empty_melee" {
 	$macro_idlesequence
 	frames 0 46
 	activity "ACT_VM_MISSCENTER" 1
+	fadein 0.2
+	fadeout 0.2
 	addlayer "delta_melee"
 	addlayer "empty_layer"
+	fps 30
 	ikrule rhand touch "b_wpn" usesource
 }
 
 $sequence "base_fire_1" {
 	$macro_idlesequence
 	activity "ACT_VM_PRIMARYATTACK" 1
+	fadein 0.2
+	fadeout 0.2
 	addlayer "delta_ik_fire_1"
 	blendlayer "delta_trigger" 0 1 10 10
 	blendlayer "delta_slideback" 1 2 3 4
@@ -562,6 +588,8 @@ $sequence "base_fire_1" {
 $sequence "base_fire_2" {
 	$macro_idlesequence
 	activity "ACT_VM_PRIMARYATTACK" 1
+	fadein 0.2
+	fadeout 0.2
 	addlayer "delta_ik_fire_2"
 	blendlayer "delta_trigger" 0 1 10 10
 	blendlayer "delta_slideback" 1 2 3 4
@@ -576,6 +604,8 @@ $sequence "base_fire_2" {
 $sequence "base_fire_3" {
 	$macro_idlesequence
 	activity "ACT_VM_PRIMARYATTACK" 1
+	fadein 0.2
+	fadeout 0.2
 	addlayer "delta_ik_fire_3"
 	blendlayer "delta_trigger" 0 1 10 10
 	blendlayer "delta_slideback" 1 2 3 4
@@ -590,6 +620,8 @@ $sequence "base_fire_3" {
 $sequence "iron_fire_1" {
 	$macro_idlesequence
 	activity "ACT_VM_PRIMARYATTACK_1" 1
+	fadein 0.2
+	fadeout 0.2
 	blendlayer "delta_trigger" 0 1 10 10
 	blendlayer "delta_slideback" 1 2 3 4
 	blendlayer "delta_hammer_fire" -1 0.75 1 1.5
@@ -604,6 +636,8 @@ $sequence "iron_fire_1" {
 $sequence "iron_fire_2" {
 	$macro_idlesequence
 	activity "ACT_VM_PRIMARYATTACK_1" 1
+	fadein 0.2
+	fadeout 0.2
 	blendlayer "delta_trigger" 0 1 10 10
 	blendlayer "delta_slideback" 1 2 3 4
 	blendlayer "delta_hammer_fire" -1 0.75 1 1.5
@@ -618,6 +652,8 @@ $sequence "iron_fire_2" {
 $sequence "iron_fire_3" {
 	$macro_idlesequence
 	activity "ACT_VM_PRIMARYATTACK_1" 1
+	fadein 0.2
+	fadeout 0.2
 	blendlayer "delta_trigger" 0 1 10 10
 	blendlayer "delta_slideback" 1 2 3 4
 	blendlayer "delta_hammer_fire" -1 0.75 1 1.5
@@ -632,6 +668,8 @@ $sequence "iron_fire_3" {
 $sequence "base_dryfire" {
 	$macro_idlesequence
 	activity "ACT_VM_DRYFIRE" 1
+	fadein 0.2
+	fadeout 0.2
 	addlayer "delta_ik_dryfire"
 	blendlayer "delta_trigger" 0 1 10 10
 	addlayer "empty_layer"
@@ -645,6 +683,8 @@ $sequence "base_dryfire" {
 $sequence "base_fire_last" {
 	$macro_idlesequence
 	activity "ACT_VM_PRIMARYATTACK_EMPTY" 1
+	fadein 0.2
+	fadeout 0.2
 	blendlayer "delta_trigger" 0 1 10 10
 	blendlayer "empty_layer" 1 2 100 100
 	snap
@@ -658,6 +698,8 @@ $sequence "base_fire_last" {
 $sequence "iron_fire_last" {
 	$macro_idlesequence
 	activity "ACT_VM_PRIMARYATTACK_2" 1
+	fadein 0.2
+	fadeout 0.2
 	blendlayer "delta_trigger" 0 1 10 10
 	blendlayer "empty_layer" 1 2 100 100
 	snap
@@ -671,6 +713,8 @@ $sequence "iron_fire_last" {
 $sequence "base_reload" {
 	"C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\weapons\p226\anims\an_1p_226_b_reload.smd"
 	activity "ACT_VM_RELOAD" 1
+	fadein 0.2
+	fadeout 0.2
 	fps 30
 	ikrule rhand touch "b_wpn" usesource
 }
@@ -678,6 +722,8 @@ $sequence "base_reload" {
 $sequence "base_reloadempty" {
 	"C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\weapons\p226\anims\an_1p_226_b_reload_empty.smd"
 	activity "ACT_VM_RELOAD_EMPTY" 1
+	fadein 0.2
+	fadeout 0.2
 	fps 30
 	ikrule rhand touch "b_wpn" usesource
 }
@@ -685,6 +731,8 @@ $sequence "base_reloadempty" {
 $sequence "base_reload_speed" {
 	"C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\weapons\p226\anims\an_1p_226_b_reload_speed.smd"
 	activity "ACT_VM_RELOAD_SPEED" 1
+	fadein 0.2
+	fadeout 0.2
 	fps 30
 	ikrule rhand touch "b_wpn" usesource
 }
@@ -692,6 +740,8 @@ $sequence "base_reload_speed" {
 $sequence "base_reloadempty_speed" {
 	"C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\weapons\p226\anims\an_1p_226_b_reload_empty_speed.smd"
 	activity "ACT_VM_RELOAD_EMPTY_SPEED" 1
+	fadein 0.2
+	fadeout 0.2
 	fps 30
 	ikrule rhand touch "b_wpn" usesource
 }
@@ -699,6 +749,8 @@ $sequence "base_reloadempty_speed" {
 $sequence "base_ready" {
 	"C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\weapons\p226\anims\an_1p_226_b_ready.smd"
 	activity "ACT_VM_DRAW_DEPLOYED" 1
+	fadein 0.2
+	fadeout 0.2
 	fps 30
 	snap
 	ikrule rhand touch "b_wpn" usesource
