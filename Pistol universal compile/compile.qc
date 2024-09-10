@@ -125,8 +125,8 @@ $weightlist "weights_empty" {
 	"b_wpn_barrel" 1
 	"b_wpn_slide" 1
 	"b_wpn_sliderelease" 1
-	"b_wpn_mag_b1" 0
 	"b_wpn_mag_b2" 0
+	"b_wpn_mag_b1" 0
 }
 
 $weightlist "weights_wpnonly" {
