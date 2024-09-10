@@ -175,7 +175,7 @@ $weightlist "weights_sprint" {
 	"b_ch_l_upperarm" 1
 	"b_ch_r_forearm" 1
 	"b_ch_l_forearm" 1
-	"b_ch_r_hand" 0
+	"b_ch_r_hand" 1
 	"b_ch_l_hand" 1
 	"b_wpn_barrel" 0
 	"b_wpn_slide" 0
