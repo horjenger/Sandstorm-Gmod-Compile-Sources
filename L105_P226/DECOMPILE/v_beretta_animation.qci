@@ -636,7 +636,7 @@ $weightlist "weights_empty_layer" {
 	 "b_wpn_eject" 0
 	 "b_wpn_hammer" 0
 	 "b_wpn_mag" 0
-	 "b_wpn_mag_b1" 1
+	 "b_wpn_mag_b1" 0
 	 "b_wpn_mag_b2" 0
 	 "ik_hand_wpn_l" 0
 	 "b_wpn_muzzle" 0
