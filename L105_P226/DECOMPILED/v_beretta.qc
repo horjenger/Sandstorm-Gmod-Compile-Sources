@@ -38,7 +38,7 @@ $include "v_beretta_bone.qci"
 
 $include "v_beretta_animation.qci"
 
-$include "C:\Users\herjenger\Desktop\Sandstorm Reloaded compile sources\Pistol universal compile\gmod_bones_follow_sandstorm.qci"
+$include "C:\Users\herjenger\Desktop\Sandstorm Reloaded compile sources\Sandstorm-Gmod-Compile-Sources\Pistol universal compile\gmod_bones_follow_sandstorm.qci"
 
 $include "C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\unreal_scale.qci"
 
