@@ -119,6 +119,9 @@ $weightlist "weights_wpnonly" {
 	"b_wpn_slide" 0
 	"b_wpn_sliderelease" 0
 	"b_wpn_hammer" 0
+	"b_wpn_laser" 0
+	"b_wpn_flash" 0
+	"b_wpn_suppressor" 0
 }
 
 $weightlist "weights_slideback" {

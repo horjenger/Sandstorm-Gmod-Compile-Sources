@@ -79,9 +79,9 @@ $weightlist "weights_delta_ik_fire_1" {
 	 "ik_hand_wpn_r" 1
 	 "b_wpn_barrel" 0
 	 "b_wpn_mag_follow" 0
-	 "b_wpn_laser" 1
-	 "b_wpn_suppressor" 1
-	 "b_wpn_flash" 1
+	 "b_wpn_laser" 0
+	 "b_wpn_suppressor" 0
+	 "b_wpn_flash" 0
 }
 
 $weightlist "weights_delta_ik_sprint" {

@@ -1,6 +1,6 @@
 // Created by Crowbar 0.74
 
-$modelname "weapons\v_beretta.mdl"
+$modelname "weapons\v_l105.mdl"
 
 $bodygroup "Weapon"
 {
