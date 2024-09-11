@@ -1,0 +1,98 @@
+$include "C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\unreal_scale.qci"
+
+$weightlist "weights_wpnonly" {
+	"b_root" 0
+	"b_wpn" 1
+	"b_wpn_bolt" 0
+	// "b_wpn_sliderelease" 0
+	"b_wpn_eject" 0
+	"b_wpn_fireselect" 0
+	"b_wpn_magrelease" 0
+	"b_wpn_muzzle" 0
+	// "b_wpn_spec_1" 0
+	"b_wpn_spec_2" 0
+	"b_wpn_trigger" 0
+	"ik_hand_wpn_l" 0
+	"ik_hand_wpn_r" 0
+	// "b_wpn_stock" 0
+	"b_wpn_chargehandle" 0
+	"b_wpn_mag" 0
+	"b_wpn_mag_b1" 0
+	"b_wpn_mag_b2" 0
+	"b_wpn_ring_1" 0
+	"b_wpn_ring_2" 0
+	// "b_wpn_mag_follow" 0
+	// "A_Modkit" 0
+	// "b_wpn_bipod" 0
+	// "b_wpn_bipod_base" 0
+	// "b_wpn_optic" 0
+	// "b_wpn_foregrip" 0
+	"b_camera" 1
+	// "b_wpn_handguard" 0
+	// "b_wpn_handguard_railed" 0
+}
+
+$definemacro macro_idlesequence \\
+"C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\weapons\fal\anims\an_1p_fal_b_idle.smd"
+
+//INSPECT
+$animation a_ik_inspect "C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\animations\gen_rif\anims\an_1p_gen_rif_b_fidget.smd"
+$sequence "delta_ik_inspect" delta a_ik_inspect weightlist "weights_wpnonly"
+
+//MELEE
+$animation a_ik_melee "C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\animations\gen_rif\anims\AN_1P_GEN_RIF_B_Melee_Muzzle.smd"
+$sequence "delta_ik_melee" delta a_ik_melee weightlist "weights_wpnonly"
+
+$sequence "macro" {
+	$macro_idlesequence
+}
+
+$sequence "base_inspect" {
+	$macro_idlesequence
+	activity "ACT_VM_FIDGET" 1
+	addlayer "delta_ik_inspect"
+	fadein 0.2
+	fadeout 0.2
+	frames 0 121
+	fps 30
+	ikrule rhand touch "b_wpn" usesource
+	ikrule lhand touch "b_wpn" usesource
+}
+
+$sequence "empty_inspect" {
+	$macro_idlesequence
+	activity "ACT_CROSSBOW_FIDGET_UNLOADED" 1
+	addlayer "delta_ik_inspect"
+	addlayer "empty_layer"
+	fadein 0.2
+	fadeout 0.2
+	frames 0 121
+	fps 30
+	ikrule rhand touch "b_wpn" usesource
+	ikrule lhand touch "b_wpn" usesource
+}
+
+$sequence "base_melee" {
+	$macro_idlesequence
+	activity "ACT_VM_HITCENTER" 1
+	addlayer "delta_ik_melee"
+	fadein 0.2
+	fadeout 0.2
+	frames 0 46
+	fps 30
+	ikrule rhand touch "b_wpn" usesource
+	ikrule lhand touch "b_wpn" usesource
+}
+
+$sequence "empty_melee" {
+	$macro_idlesequence
+	activity "ACT_VM_MISSCENTER" 1
+	addlayer "delta_ik_melee"
+	addlayer "empty_layer"
+	fadein 0.2
+	fadeout 0.2
+	frames 0 46
+	fps 30
+	ikrule rhand touch "b_wpn" usesource
+	ikrule lhand touch "b_wpn" usesource
+}
