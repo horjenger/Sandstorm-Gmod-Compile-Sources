@@ -19,6 +19,10 @@ Step 6: Add `$include gmod_bones_follow_sandstorm.qci` and `$include 2nd_stage_c
 
 Step 7: Compile again.
 
+Note 1: Some weightlists may be different.
+
+Note 2: Some layers may be different.
+
 Done! You can edit the files as you wish. I tried to make everything as universal as possible.
 The only reason this works is because many pistols in Insurgency use the same animation.
 Be careful and use the files from the **L105_P226** folder as reference.
@@ -42,6 +46,10 @@ Be careful and use the files from the **L105_P226** folder as reference.
 Шаг 6: Добавьте `$include gmod_bones_follow_sandstorm.qci` и `$include 2nd_stage_compile.qci` в конец декомпилированного qc.
 
 Шаг 7: Скомпилируйте снова.
+
+Примечание 1: Некоторые weightlistэ'ы могут отличатся.
+
+Примечание 2: Некоторые слои могут отличатся.
 
 Готово! Вы можете редактировать файлы по своему усмотрению. Я старался сделать все максимально универсальным.
 Единственная причина, по которой это работает, заключается в том, что многие пистолеты в Insurgency используют одну и ту же анимацию.
