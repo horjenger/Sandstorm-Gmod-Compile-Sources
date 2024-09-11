@@ -27,6 +27,8 @@ $attachment "camera" "b_camera" 0 0 0 rotate 0 -90 0
 
 $cdmaterials "models\weapons\sandstorm_reloaded\"
 
+$include "C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\weapons\p226\v_p226_bones.qci"
+
 $bonemerge "b_root"
 $bonemerge "b_ch_middle"
 $bonemerge "b_ch_spine1"
@@ -83,37 +85,12 @@ $bonemerge "b_ch_r_finger_32"
 $bonemerge "b_ch_r_finger_40"
 $bonemerge "b_ch_r_finger_41"
 $bonemerge "b_ch_r_finger_42"
-$bonemerge "b_camera"
-$bonemerge "ik_hand_root"
-$bonemerge "ik_hand_r"
-$bonemerge "ik_hand_l"
-$bonemerge "b_wpn"
-$bonemerge "b_wpn_eject"
-$bonemerge "b_wpn_hammer"
 $bonemerge "b_wpn_laser"
-$bonemerge "b_wpn_laser_beam"
-$bonemerge "b_wpn_mag"
-$bonemerge "b_wpn_mag_b1"
-$bonemerge "b_wpn_mag_b2"
-$bonemerge "b_wpn_mag_follow"
-$bonemerge "b_wpn_muzzle"
-$bonemerge "b_wpn_slide"
-$bonemerge "b_wpn_sliderelease"
-$bonemerge "b_wpn_suppressor"
-$bonemerge "b_wpn_suppressor_muzzle"
-$bonemerge "b_wpn_trigger"
 $bonemerge "b_wpn_flash"
-$bonemerge "b_wpn_flash_beam"
-$bonemerge "ik_hand_wpn_r"
-$bonemerge "ik_hand_wpn_l"
-$bonemerge "b_wpn_barrel"
+$bonemerge "b_wpn_suppressor"
 
 $cbox 0 0 0 0 0 0
 $bbox -20.432 -2.695 -25.946 11.584 8.836 2.803
-
-$include "C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\weapons\p226\v_p226_bones.qci"
-
-$include "C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\ins2_attachment_bones.qci"
 
 $include "C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\sandstorm_deltas_macros.qci"
 

@@ -1,5 +1,5 @@
 
-$sectionframes 30 139
+$sectionframes 30 30
 
 $ikchain "rhand" "b_ch_r_hand" knee 0.707 0.707 0
 $ikchain "lhand" "b_ch_l_hand" knee 0.707 0.707 0
@@ -79,9 +79,8 @@ $weightlist "weights_delta_ik_fire_1" {
 	 "ik_hand_wpn_r" 1
 	 "b_wpn_barrel" 0
 	 "b_wpn_mag_follow" 0
-	 "A_Optic" 0
-	 "A_Foregrip" 0
 	 "b_wpn_laser" 1
+	 "b_wpn_suppressor" 1
 	 "b_wpn_flash" 1
 }
 
@@ -160,9 +159,8 @@ $weightlist "weights_delta_ik_sprint" {
 	 "ik_hand_wpn_r" 1
 	 "b_wpn_barrel" 0
 	 "b_wpn_mag_follow" 0
-	 "A_Optic" 0
-	 "A_Foregrip" 0
 	 "b_wpn_laser" 1
+	 "b_wpn_suppressor" 1
 	 "b_wpn_flash" 1
 }
 
@@ -241,9 +239,8 @@ $weightlist "weights_delta_draw" {
 	 "ik_hand_wpn_r" 1
 	 "b_wpn_barrel" 0
 	 "b_wpn_mag_follow" 0
-	 "A_Optic" 0
-	 "A_Foregrip" 0
 	 "b_wpn_laser" 1
+	 "b_wpn_suppressor" 1
 	 "b_wpn_flash" 1
 }
 
@@ -322,9 +319,8 @@ $weightlist "weights_delta_melee" {
 	 "ik_hand_wpn_r" 1
 	 "b_wpn_barrel" 0
 	 "b_wpn_mag_follow" 0
-	 "A_Optic" 0
-	 "A_Foregrip" 0
 	 "b_wpn_laser" 1
+	 "b_wpn_suppressor" 1
 	 "b_wpn_flash" 1
 }
 
@@ -403,9 +399,8 @@ $weightlist "weights_delta_slideback" {
 	 "ik_hand_wpn_r" 0
 	 "b_wpn_barrel" 1
 	 "b_wpn_mag_follow" 0
-	 "A_Optic" 0
-	 "A_Foregrip" 0
 	 "b_wpn_laser" 0
+	 "b_wpn_suppressor" 0
 	 "b_wpn_flash" 0
 }
 
@@ -484,9 +479,8 @@ $weightlist "weights_delta_trigger" {
 	 "ik_hand_wpn_r" 0
 	 "b_wpn_barrel" 0
 	 "b_wpn_mag_follow" 0
-	 "A_Optic" 0
-	 "A_Foregrip" 0
 	 "b_wpn_laser" 0
+	 "b_wpn_suppressor" 0
 	 "b_wpn_flash" 0
 }
 
@@ -565,9 +559,8 @@ $weightlist "weights_delta_hammer_fire" {
 	 "ik_hand_wpn_r" 0
 	 "b_wpn_barrel" 0
 	 "b_wpn_mag_follow" 0
-	 "A_Optic" 0
-	 "A_Foregrip" 0
 	 "b_wpn_laser" 0
+	 "b_wpn_suppressor" 0
 	 "b_wpn_flash" 0
 }
 
@@ -646,9 +639,8 @@ $weightlist "weights_empty_layer" {
 	 "ik_hand_wpn_r" 0
 	 "b_wpn_barrel" 1
 	 "b_wpn_mag_follow" 0
-	 "A_Optic" 0
-	 "A_Foregrip" 0
 	 "b_wpn_laser" 0
+	 "b_wpn_suppressor" 0
 	 "b_wpn_flash" 0
 }
 

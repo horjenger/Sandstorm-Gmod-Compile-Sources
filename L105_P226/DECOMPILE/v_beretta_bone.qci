@@ -73,9 +73,8 @@ $definebone "b_wpn_trigger" "b_wpn" -0.000726 0.48578 -0.232128 0 0 0 0 0 0 0 0 
 $definebone "ik_hand_wpn_r" "b_wpn" -0.597957 4.279587 -2.648257 -23.674677 -98.902826 -3.042578 0 0 0 0 0 0
 $definebone "b_wpn_barrel" "b_wpn" -0.000726 -0.270146 0.026927 0 0 0 0 0 0 0 0 0
 $definebone "b_wpn_mag_follow" "b_wpn_mag" -2.441433 -13.999615 -0.669602 0 0 0 0 0 0 0 0 0
-$definebone "A_Optic" "" 0 0 0 0 -180.000005 -90.000003 0 0 0 0 0 0
-$definebone "A_Foregrip" "" 0 0 0 0 -180.000005 0 0 0 0 0 0 0
 $definebone "b_wpn_laser" "b_wpn" -0.007512 -4.334089 -0.92344 0 -89.999982 0 0 0 0 0 0 0
+$definebone "b_wpn_suppressor" "b_wpn" 0.000563 -4.296799 0.701256 0 0 0 0 0 0 0 0 0
 $definebone "b_wpn_flash" "b_wpn" -0.007513 -2.974146 -0.923441 0 -89.999982 0 0 0 0 0 0 0
 
 $bonemerge "b_root"
@@ -134,26 +133,8 @@ $bonemerge "b_ch_r_finger_32"
 $bonemerge "b_ch_r_finger_40"
 $bonemerge "b_ch_r_finger_41"
 $bonemerge "b_ch_r_finger_42"
-$bonemerge "b_camera"
-$bonemerge "ik_hand_root"
-$bonemerge "ik_hand_r"
-$bonemerge "ik_hand_l"
 $bonemerge "b_wpn"
-$bonemerge "b_wpn_eject"
-$bonemerge "b_wpn_hammer"
-$bonemerge "b_wpn_mag"
-$bonemerge "b_wpn_mag_b1"
-$bonemerge "b_wpn_mag_b2"
-$bonemerge "ik_hand_wpn_l"
-$bonemerge "b_wpn_muzzle"
-$bonemerge "b_wpn_slide"
-$bonemerge "b_wpn_sliderelease"
-$bonemerge "b_wpn_trigger"
-$bonemerge "ik_hand_wpn_r"
-$bonemerge "b_wpn_barrel"
-$bonemerge "b_wpn_mag_follow"
-$bonemerge "A_Optic"
-$bonemerge "A_Foregrip"
 $bonemerge "b_wpn_laser"
+$bonemerge "b_wpn_suppressor"
 $bonemerge "b_wpn_flash"
 

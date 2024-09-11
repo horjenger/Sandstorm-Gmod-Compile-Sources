@@ -75,14 +75,11 @@ nodes
   71 "ik_hand_wpn_r" 60
   72 "b_wpn_barrel" 60
   73 "b_wpn_mag_follow" 63
-  74 "A_Optic" -1
-  75 "A_Foregrip" -1
-  76 "b_wpn_laser" 60
-  77 "b_wpn_flash" 60
+  74 "b_wpn_laser" 60
+  75 "b_wpn_suppressor" 60
+  76 "b_wpn_flash" 60
 end
 skeleton
   time 0
     0 0.000000 0.000000 0.000000 0.000000 0.000000 -1.570796
-    74 0.000000 0.000000 0.000000 0.000000 0.000000 -1.570796
-    75 0.000000 0.000000 0.000000 0.000000 0.000000 -1.570796
 end

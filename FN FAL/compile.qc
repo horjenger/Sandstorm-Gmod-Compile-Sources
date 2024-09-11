@@ -72,35 +72,9 @@ $bonemerge "b_ch_r_finger_32"
 $bonemerge "b_ch_r_finger_40"
 $bonemerge "b_ch_r_finger_41"
 $bonemerge "b_ch_r_finger_42"
-$bonemerge "b_camera"
-$bonemerge "ik_hand_root"
-$bonemerge "ik_hand_r"
-$bonemerge "ik_hand_l"
-$bonemerge "b_wpn"
-$bonemerge "b_wpn_eject"
-$bonemerge "b_wpn_foregrip"
-$bonemerge "b_wpn_flash"
-$bonemerge "b_wpn_flash_beam"
-$bonemerge "b_wpn_magrelease"
-$bonemerge "b_wpn_muzzle"
 $bonemerge "b_wpn_optic"
 $bonemerge "b_wpn_suppressor"
-$bonemerge "b_wpn_suppressor_muzzle"
-$bonemerge "b_wpn_trigger"
-$bonemerge "ik_hand_wpn_l"
-$bonemerge "ik_hand_wpn_r"
-$bonemerge "b_wpn_laser"
-$bonemerge "b_wpn_laser_beam"
-$bonemerge "b_wpn_mag"
-$bonemerge "b_wpn_mag_b1"
-$bonemerge "b_wpn_mag_follow"
-$bonemerge "b_wpn_bolt"
-$bonemerge "b_wpn_bipod"
-$bonemerge "b_wpn_bipod_base"
-$bonemerge "b_wpn_bipod_base_l"
-$bonemerge "b_wpn_bipod_base_r"
-$bonemerge "b_wpn_bayonet"
-$bonemerge "b_wpn_mag_2"
+
 
 $cbox 0 0 0 0 0 0
 $bbox -20.432 -2.695 -25.946 11.584 8.836 2.803
@@ -148,10 +122,9 @@ $weightlist "weights_wpnonly" {
 	"b_wpn_ring_1" 0
 	"b_wpn_ring_2" 0
 	// "b_wpn_mag_follow" 0
-	// "A_Modkit" 0
 	// "b_wpn_bipod" 0
 	// "b_wpn_bipod_base" 0
-	// "b_wpn_optic" 0
+	"b_wpn_optic" 0
 	// "b_wpn_foregrip" 0
 	"b_camera" 1
 	// "b_wpn_handguard" 0

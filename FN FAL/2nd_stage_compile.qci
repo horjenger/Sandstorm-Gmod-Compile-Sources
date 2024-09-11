@@ -22,10 +22,9 @@ $weightlist "weights_wpnonly" {
 	"b_wpn_ring_1" 0
 	"b_wpn_ring_2" 0
 	// "b_wpn_mag_follow" 0
-	// "A_Modkit" 0
 	// "b_wpn_bipod" 0
 	// "b_wpn_bipod_base" 0
-	// "b_wpn_optic" 0
+	"b_wpn_optic" 0
 	// "b_wpn_foregrip" 0
 	"b_camera" 1
 	// "b_wpn_handguard" 0

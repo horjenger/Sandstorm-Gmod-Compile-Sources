@@ -80,7 +80,7 @@ $weightlist "weights_delta_ik_fire_1" {
 	 "b_wpn_mag" 0
 	 "b_wpn_mag_b1" 0
 	 "b_wpn_mag_b2" 0
-	 "b_wpn_optic" 1
+	 "b_wpn_optic" 0
 	 "b_wpn_bayonet" 1
 	 "b_wpn_bipod" 1
 	 "b_wpn_bipod_base" 1
@@ -90,7 +90,7 @@ $weightlist "weights_delta_ik_fire_1" {
 	 "b_wpn_mag_2" 1
 	 "b_wpn_ring_1" 0
 	 "b_wpn_ring_2" 0
-	 "A_Optic" 1
+	 "A_Optic" 0
 	 "A_Foregrip" 1
 }
 
