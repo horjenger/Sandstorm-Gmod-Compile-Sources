@@ -84,13 +84,4 @@ $definebone "b_wpn_foregrip" "b_wpn" -0.044998 -2.737285 0.802469 0 -89.999982 0
 $definebone "b_wpn_mag_2" "b_wpn" 11.545934 73.76841 -3.792049 0 0 0 0 0 0 0 0 0
 $definebone "b_wpn_ring_1" "b_wpn" -0.042317 -11.025825 1.41702 0 0 0 0 0 0 0 0 0
 $definebone "b_wpn_ring_2" "b_wpn" -0.042308 16.996815 -1.899847 0 0 0 0 0 0 0 0 0
-$definebone "A_Optic" "b_wpn_optic" 0 0 0 0 -180.000005 -90.000003 0 0 0 0 0 0
-$definebone "A_Foregrip" "b_wpn_foregrip" 0 0 0 0 -180.000005 0 0 0 0 0 0 0
-
-$bonemerge "b_root"
-$bonemerge "b_wpn"
-$bonemerge "b_wpn_optic"
-$bonemerge "b_wpn_foregrip"
-$bonemerge "A_Optic"
-$bonemerge "A_Foregrip"
 

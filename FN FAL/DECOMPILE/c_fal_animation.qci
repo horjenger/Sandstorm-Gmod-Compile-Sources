@@ -90,8 +90,6 @@ $weightlist "weights_delta_ik_fire_1" {
 	 "b_wpn_mag_2" 1
 	 "b_wpn_ring_1" 0
 	 "b_wpn_ring_2" 0
-	 "A_Optic" 0
-	 "A_Foregrip" 1
 }
 
 $weightlist "weights_delta_ik_sprint" {
@@ -180,8 +178,6 @@ $weightlist "weights_delta_ik_sprint" {
 	 "b_wpn_mag_2" 1
 	 "b_wpn_ring_1" 0
 	 "b_wpn_ring_2" 0
-	 "A_Optic" 0
-	 "A_Foregrip" 1
 }
 
 $weightlist "weights_delta_boltback" {
@@ -270,8 +266,6 @@ $weightlist "weights_delta_boltback" {
 	 "b_wpn_mag_2" 0
 	 "b_wpn_ring_1" 0
 	 "b_wpn_ring_2" 0
-	 "A_Optic" 0
-	 "A_Foregrip" 0
 }
 
 $weightlist "weights_delta_trigger" {
@@ -360,8 +354,6 @@ $weightlist "weights_delta_trigger" {
 	 "b_wpn_mag_2" 0
 	 "b_wpn_ring_1" 0
 	 "b_wpn_ring_2" 0
-	 "A_Optic" 0
-	 "A_Foregrip" 0
 }
 
 $animation "a_ik_fire_1_corrective_animation" "c_fal_anims\a_ik_fire_1_corrective_animation.smd" {

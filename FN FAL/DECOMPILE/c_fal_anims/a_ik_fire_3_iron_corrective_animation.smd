@@ -86,8 +86,6 @@ nodes
   82 "b_wpn_mag_2" 60
   83 "b_wpn_ring_1" 60
   84 "b_wpn_ring_2" 60
-  85 "A_Optic" 75
-  86 "A_Foregrip" 81
 end
 skeleton
   time 0

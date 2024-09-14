@@ -21,15 +21,14 @@ $attachment "camera" "b_camera" 0 0 0 rotate 0 -90 0
 
 $cdmaterials "models\weapons\sandstorm_reloaded\"
 
-$bonemerge "b_wpn_optic"
+$include "C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\weapons\fal\v_fal_bones.qci"
+
+$bonemerge "b_wpn_laser"
+$bonemerge "b_wpn_flash"
 $bonemerge "b_wpn_suppressor"
 
 $cbox 0 0 0 0 0 0
 $bbox -20.432 -2.695 -25.946 11.584 8.836 2.803
-
-$include "C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\weapons\fal\v_fal_bones.qci"
-
-$include "C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\ins2_attachment_bones.qci"
 
 $include "C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\sandstorm_deltas_macros.qci"
 
