@@ -6,6 +6,10 @@ $bodygroup "weapon"
 {
 	studio "sandstorm_source_fil.smd"
 }
+$bodygroup "mag"
+{
+	studio "sandstorm_source_fil_2.smd"
+}
 
 $include "c_fal_lod.qci"
 
@@ -13,7 +17,7 @@ $surfaceprop "default"
 
 $contents "solid"
 
-$illumposition 0.534 13.53 -10.91
+$illumposition 0.595 13.598 -10.91
 
 $cdmaterials "models\weapons\sandstorm_reloaded\"
 
@@ -27,6 +31,6 @@ $include "c_fal_bone.qci"
 
 $include "c_fal_animation.qci"
 
-$include "C:\Users\herjenger\Desktop\Sandstorm Reloaded Compile Sources\Sandstorm-Gmod-Compile-Sources\gmod_bones_follow_sandstorm.qci"
+$include "C:\Users\herjenger\Desktop\Sandstorm Reloaded compile sources\Sandstorm-Gmod-Compile-Sources\gmod_bones_follow_sandstorm.qci"
 
-$include "C:\Users\herjenger\Desktop\Sandstorm Reloaded Compile Sources\Sandstorm-Gmod-Compile-Sources\FN FAL\2nd_stage_compile.qci"
+$include "C:\Users\herjenger\Desktop\Sandstorm Reloaded compile sources\Sandstorm-Gmod-Compile-Sources\FN FAL\2nd_stage_compile.qci"

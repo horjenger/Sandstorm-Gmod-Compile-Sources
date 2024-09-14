@@ -4,31 +4,21 @@ $weightlist "weights_wpnonly" {
 	"b_root" 0
 	"b_wpn" 1
 	"b_wpn_bolt" 0
-	// "b_wpn_sliderelease" 0
 	"b_wpn_eject" 0
 	"b_wpn_fireselect" 0
 	"b_wpn_magrelease" 0
-	"b_wpn_muzzle" 0
-	// "b_wpn_spec_1" 0
 	"b_wpn_spec_2" 0
 	"b_wpn_trigger" 0
 	"ik_hand_wpn_l" 0
 	"ik_hand_wpn_r" 0
-	// "b_wpn_stock" 0
 	"b_wpn_chargehandle" 0
 	"b_wpn_mag" 0
 	"b_wpn_mag_b1" 0
 	"b_wpn_mag_b2" 0
 	"b_wpn_ring_1" 0
 	"b_wpn_ring_2" 0
-	// "b_wpn_mag_follow" 0
-	// "b_wpn_bipod" 0
-	// "b_wpn_bipod_base" 0
 	"b_wpn_optic" 0
-	// "b_wpn_foregrip" 0
 	"b_camera" 1
-	// "b_wpn_handguard" 0
-	// "b_wpn_handguard_railed" 0
 }
 
 $definemacro macro_idlesequence \\

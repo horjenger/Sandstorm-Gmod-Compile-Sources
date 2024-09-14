@@ -69,12 +69,102 @@ $weightlist "weights_delta_ik_fire_1" {
 	 "b_wpn_eject" 0
 	 "b_wpn_fireselect" 0
 	 "b_wpn_magrelease" 0
-	 "b_wpn_muzzle" 0
+	 "b_wpn_muzzle" 1
 	 "b_wpn_sliderelease" 1
 	 "b_wpn_spec_2" 0
 	 "b_wpn_trigger" 0
 	 "ik_hand_wpn_l" 0
 	 "ik_hand_wpn_r" 0
+	 "b_wpn_bolt" 0
+	 "b_wpn_chargehandle" 0
+	 "b_wpn_mag" 0
+	 "b_wpn_mag_b1" 0
+	 "b_wpn_mag_b2" 0
+	 "b_wpn_optic" 0
+	 "b_wpn_bayonet" 1
+	 "b_wpn_bipod" 1
+	 "b_wpn_bipod_base" 1
+	 "b_wpn_bipod_base_l" 1
+	 "b_wpn_bipod_base_r" 1
+	 "b_wpn_foregrip" 1
+	 "b_wpn_mag_2" 1
+	 "b_wpn_ring_1" 0
+	 "b_wpn_ring_2" 0
+	 "A_Optic" 0
+	 "A_Foregrip" 1
+}
+
+$weightlist "weights_delta_ik_sprint" {
+	 "b_root" 0
+	 "b_ch_middle" 0
+	 "b_ch_spine1" 0
+	 "b_ch_spine2" 0
+	 "b_ch_l_clavical" 1
+	 "b_ch_l_upperarm" 1
+	 "b_ch_l_forearm" 1
+	 "b_ch_l_forearm_twist1" 1
+	 "b_ch_l_forearm_twist2" 1
+	 "b_ch_l_forearm_twist3" 1
+	 "b_ch_l_forearm_twist4" 1
+	 "b_ch_l_forearm_twist5" 1
+	 "b_ch_l_forearm_twist6" 1
+	 "b_ch_l_forearm_twist7" 1
+	 "b_ch_l_hand" 1
+	 "b_ch_l_finger_00" 1
+	 "b_ch_l_finger_01" 1
+	 "b_ch_l_finger_02" 1
+	 "b_ch_l_finger_40" 1
+	 "b_ch_l_finger_41" 1
+	 "b_ch_l_finger_42" 1
+	 "b_ch_l_finger_20" 1
+	 "b_ch_l_finger_21" 1
+	 "b_ch_l_finger_22" 1
+	 "b_ch_l_finger_30" 1
+	 "b_ch_l_finger_31" 1
+	 "b_ch_l_finger_32" 1
+	 "b_ch_l_finger_10" 1
+	 "b_ch_l_finger_11" 1
+	 "b_ch_l_finger_12" 1
+	 "b_ch_r_clavical" 1
+	 "b_ch_r_upperarm" 1
+	 "b_ch_r_forearm" 1
+	 "b_ch_r_forearm_twist1" 1
+	 "b_ch_r_forearm_twist2" 1
+	 "b_ch_r_forearm_twist3" 1
+	 "b_ch_r_forearm_twist4" 1
+	 "b_ch_r_forearm_twist5" 1
+	 "b_ch_r_forearm_twist6" 1
+	 "b_ch_r_forearm_twist7" 1
+	 "b_ch_r_hand" 1
+	 "b_ch_r_finger_00" 1
+	 "b_ch_r_finger_01" 1
+	 "b_ch_r_finger_02" 1
+	 "b_ch_r_finger_10" 1
+	 "b_ch_r_finger_11" 1
+	 "b_ch_r_finger_12" 1
+	 "b_ch_r_finger_20" 1
+	 "b_ch_r_finger_21" 1
+	 "b_ch_r_finger_22" 1
+	 "b_ch_r_finger_30" 1
+	 "b_ch_r_finger_31" 1
+	 "b_ch_r_finger_32" 1
+	 "b_ch_r_finger_40" 1
+	 "b_ch_r_finger_41" 1
+	 "b_ch_r_finger_42" 1
+	 "b_camera" 1
+	 "ik_hand_root" 0
+	 "ik_hand_r" 0
+	 "ik_hand_l" 0
+	 "b_wpn" 1
+	 "b_wpn_eject" 0
+	 "b_wpn_fireselect" 0
+	 "b_wpn_magrelease" 0
+	 "b_wpn_muzzle" 1
+	 "b_wpn_sliderelease" 1
+	 "b_wpn_spec_2" 0
+	 "b_wpn_trigger" 0
+	 "ik_hand_wpn_l" 1
+	 "ik_hand_wpn_r" 1
 	 "b_wpn_bolt" 0
 	 "b_wpn_chargehandle" 0
 	 "b_wpn_mag" 0
@@ -298,6 +388,9 @@ $animation "a_ik_fire_3_iron_corrective_animation" "c_fal_anims\a_ik_fire_3_iron
 $animation "a_ik_sprint_corrective_animation" "c_fal_anims\a_ik_sprint_corrective_animation.smd" {
 }
 
+$animation "a_ik_hrd_corrective_animation" "c_fal_anims\a_ik_hrd_corrective_animation.smd" {
+}
+
 $animation "a_ik_draw_corrective_animation" "c_fal_anims\a_ik_draw_corrective_animation.smd" {
 }
 
@@ -367,7 +460,15 @@ $animation "a_ik_sprint" "c_fal_anims\a_ik_sprint.smd" {
 	loop
 	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
 	subtract "a_ik_sprint_corrective_animation" 0
-	weightlist "weights_delta_ik_fire_1"
+	weightlist "weights_delta_ik_sprint"
+}
+
+$animation "a_ik_hrd" "c_fal_anims\a_ik_hrd.smd" {
+	fps 30
+	loop
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_ik_hrd_corrective_animation" 0
+	weightlist "weights_delta_ik_sprint"
 }
 
 $animation "a_ik_draw" "c_fal_anims\a_ik_draw.smd" {
@@ -398,15 +499,6 @@ $sequence "idle" {
 	fps 30
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
-}
-
-$sequence "seq_gen_idle" {
-	"c_fal_anims\seq_gen_idle.smd"
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 101 101 target 0
-	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 101 101 target 1
 }
 
 $sequence "delta_ik_fire_1" {
@@ -460,6 +552,13 @@ $sequence "delta_ik_fire_3_iron" {
 
 $sequence "delta_ik_sprint" {
 	"a_ik_sprint"
+	delta
+	fadein 0.2
+	fadeout 0.2
+}
+
+$sequence "delta_ik_hrd" {
+	"a_ik_hrd"
 	delta
 	fadein 0.2
 	fadeout 0.2
@@ -554,6 +653,31 @@ $sequence "empty_sprint" {
 	loop
 	ikrule "rhand" touch "b_wpn" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 69 69 target 0
 	ikrule "lhand" touch "b_wpn" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 69 69 target 1
+}
+
+$sequence "base_sprint_hrd" {
+	"c_fal_anims\base_sprint_hrd.smd"
+	activity "ACT_VM_SPRINT_HRD" 1
+	fadein 0.2
+	fadeout 0.2
+	addlayer "delta_ik_hrd"
+	fps 30
+	loop
+	ikrule "rhand" touch "b_wpn" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 88 88 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 88 88 target 1
+}
+
+$sequence "empty_sprint_hrd" {
+	"c_fal_anims\empty_sprint_hrd.smd"
+	activity "ACT_VM_SPRINT_HRD_EMPTY" 1
+	fadein 0.2
+	fadeout 0.2
+	addlayer "delta_ik_hrd"
+	addlayer "empty_layer"
+	fps 30
+	loop
+	ikrule "rhand" touch "b_wpn" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 88 88 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 88 88 target 1
 }
 
 $sequence "base_draw" {
