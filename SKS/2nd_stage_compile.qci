@@ -5,24 +5,18 @@ $weightlist "weights_wpnonly" {
 	"b_wpn" 1
 	"b_wpn_bolt" 0
 	"b_wpn_eject" 0
-	"b_wpn_fireselect" 0
 	"b_wpn_magrelease" 0
-	"b_wpn_spec_2" 0
 	"b_wpn_trigger" 0
 	"ik_hand_wpn_l" 0
 	"ik_hand_wpn_r" 0
-	"b_wpn_chargehandle" 0
 	"b_wpn_mag" 0
 	"b_wpn_mag_b1" 0
-	"b_wpn_mag_b2" 0
-	"b_wpn_ring_1" 0
-	"b_wpn_ring_2" 0
 	"b_wpn_optic" 0
 	"b_camera" 1
 }
 
 $definemacro macro_idlesequence \\
-"C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\weapons\fal\anims\an_1p_fal_b_idle.smd"
+"C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\weapons\SKS\anims\an_1p_SKS_b_idle.smd"
 
 //INSPECT
 $animation a_ik_inspect "C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\animations\gen_rif\anims\an_1p_gen_rif_b_fidget.smd"
