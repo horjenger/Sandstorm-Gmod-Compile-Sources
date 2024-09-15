@@ -12,6 +12,8 @@ $weightlist "weights_wpnonly" {
 	"b_wpn_mag" 0
 	"b_wpn_mag_b1" 0
 	"b_wpn_optic" 0
+	"b_wpn_foregrip" 0
+	"b_wpn_suppressor" 0
 	"b_camera" 1
 }
 

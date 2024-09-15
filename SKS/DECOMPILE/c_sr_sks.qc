@@ -45,4 +45,4 @@ $include "c_sr_sks_animation.qci"
 
 $include "C:\Users\herjenger\Desktop\Sandstorm Reloaded compile sources\Sandstorm-Gmod-Compile-Sources\gmod_bones_follow_sandstorm.qci"
 
-$include "C:\Users\herjenger\Desktop\Sandstorm Reloaded compile sources\Sandstorm-Gmod-Compile-Sources\sks\2nd_stage_compile.qci"
+$include "C:\Users\herjenger\Desktop\Sandstorm Reloaded compile sources\Sandstorm-Gmod-Compile-Sources\SKS\2nd_stage_compile.qci"

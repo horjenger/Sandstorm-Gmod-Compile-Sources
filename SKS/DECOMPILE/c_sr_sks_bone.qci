@@ -87,7 +87,9 @@ $definebone "b_wpn_mag_2" "b_wpn" 11.812065 53.209179 -18.516542 0 0 0 0 0 0 0 0
 
 $bonemerge "b_root"
 $bonemerge "b_wpn"
+$bonemerge "b_wpn_foregrip"
 $bonemerge "b_wpn_flash"
+$bonemerge "b_wpn_optic"
 $bonemerge "b_wpn_suppressor"
 $bonemerge "b_wpn_laser"
 

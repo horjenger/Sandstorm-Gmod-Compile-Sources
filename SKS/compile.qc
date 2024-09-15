@@ -81,7 +81,7 @@ $weightlist "weights_wpnonly" {
 	"b_camera" 1
 }
 
-$weightlist "weights_sprint" {
+$weightlist "weights_sprint_hrd" {
 	"b_root" 0
 	"b_wpn" 1
 	"b_wpn_bolt" 0
@@ -140,10 +140,10 @@ $sequence "delta_ik_fire_3_iron" delta a_ik_fire_3_iron weightlist "weights_wpno
 
 //SPRINT
 $animation a_ik_sprint "C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\animations\gen_rif\anims\AN_1P_GEN_RIF_B_Sprint_Alt.smd" subtract "idle" 0
-$sequence "delta_ik_sprint" delta a_ik_sprint weightlist "weights_sprint" loop fixuploop -1 1
+$sequence "delta_ik_sprint" delta a_ik_sprint weightlist "weights_wpnonly" loop fixuploop -1 1
 
 $animation a_ik_hrd "C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\animations\gen_rif\anims\AN_1P_GEN_RIF_B_Sprint_Hardcore.smd" subtract "idle" 0
-$sequence "delta_ik_hrd" delta a_ik_hrd weightlist "weights_sprint" loop fixuploop -1 1
+$sequence "delta_ik_hrd" delta a_ik_hrd weightlist "weights_sprint_hrd" loop fixuploop -1 1
 
 //DRAW
 $animation a_ik_draw "C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\animations\gen_rif\anims\AN_1P_GEN_RIF_B_Draw.smd"
@@ -285,8 +285,8 @@ $sequence "base_fire_1" {
 	$macro_idlesequence
 	activity "ACT_VM_PRIMARYATTACK" 1
 	addlayer "delta_ik_fire_1"
+	blendlayer "delta_boltback" 1 1 10 10
 	blendlayer "delta_trigger" 0 1 10 10
-	blendlayer "delta_boltback" 1 2 3 4
 	snap
 	frames 0 41
 	fps 30
@@ -298,8 +298,8 @@ $sequence "base_fire_2" {
 	$macro_idlesequence
 	activity "ACT_VM_PRIMARYATTACK" 1
 	addlayer "delta_ik_fire_2"
+	blendlayer "delta_boltback" 1 1 10 10
 	blendlayer "delta_trigger" 0 1 10 10
-	blendlayer "delta_boltback" 1 2 3 4
 	snap
 	frames 0 41
 	fps 30
@@ -311,8 +311,8 @@ $sequence "base_fire_3" {
 	$macro_idlesequence
 	activity "ACT_VM_PRIMARYATTACK" 1
 	addlayer "delta_ik_fire_3"
+	blendlayer "delta_boltback" 1 1 10 10
 	blendlayer "delta_trigger" 0 1 10 10
-	blendlayer "delta_boltback" 1 2 3 4
 	snap
 	frames 0 41
 	fps 30
@@ -323,11 +323,11 @@ $sequence "base_fire_3" {
 $sequence "iron_fire_1" {
 	$macro_idlesequence
 	activity "ACT_VM_PRIMARYATTACK_1" 1
-	blendlayer "delta_trigger" 0 1 10 10
-	blendlayer "delta_boltback" 1 2 3 4
-	snap
 	addlayer "delta_ik_fire_1_iron"
+	blendlayer "delta_boltback" 1 1 10 10
+	blendlayer "delta_trigger" 0 1 10 10
 	frames 0 41
+	snap
 	fps 30
 	ikrule rhand touch "b_wpn" usesource
 	ikrule lhand touch "b_wpn" usesource
@@ -336,11 +336,11 @@ $sequence "iron_fire_1" {
 $sequence "iron_fire_2" {
 	$macro_idlesequence
 	activity "ACT_VM_PRIMARYATTACK_1" 1
-	blendlayer "delta_trigger" 0 1 10 10
-	blendlayer "delta_boltback" 1 2 3 4
-	snap
 	addlayer "delta_ik_fire_2_iron"
+	blendlayer "delta_boltback" 1 1 10 10
+	blendlayer "delta_trigger" 0 1 10 10
 	frames 0 41
+	snap
 	fps 30
 	ikrule rhand touch "b_wpn" usesource
 	ikrule lhand touch "b_wpn" usesource
@@ -349,10 +349,11 @@ $sequence "iron_fire_2" {
 $sequence "iron_fire_3" {
 	$macro_idlesequence
 	activity "ACT_VM_PRIMARYATTACK_1" 1
-	blendlayer "delta_trigger" 0 1 10 10
-	blendlayer "delta_boltback" 1 2 3 4
-	snap
 	addlayer "delta_ik_fire_3_iron"
+	blendlayer "delta_boltback" 1 1 10 10
+	blendlayer "delta_trigger" 0 1 10 10
+	frames 0 41
+	snap
 	frames 0 41
 	fps 30
 	ikrule rhand touch "b_wpn" usesource
