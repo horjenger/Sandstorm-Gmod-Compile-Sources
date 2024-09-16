@@ -33,6 +33,9 @@ $contents "solid"
 
 $cdmaterials "models\weapons\sandstorm_reloaded\"
 
+$bonemerge "b_wpn_muzzle"
+$bonemerge "b_wpn_optic"
+
 $attachment "muzzle" "b_wpn_muzzle" 0 0 0 rotate 0 0 0
 $attachment "shell" "b_wpn_eject" 0 0 0 rotate 0 0 0
 $attachment "camera" "b_camera" 0 0 0 rotate 0 -90 0
@@ -60,6 +63,7 @@ $weightlist "weights_wpnonly" {
 	"b_wpn" 1
 	"b_wpn_bolt" 0
 	"b_wpn_eject" 0
+	"b_wpn_muzzle" 0
 	"b_wpn_magrelease" 0
 	"b_wpn_trigger" 0
 	"ik_hand_wpn_l" 0
@@ -93,7 +97,7 @@ $weightlist "weights_delta_wpn_arms" {
 // sequences
 
 $definemacro macro_idlesequence \\
-"C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\weapons\SKS\anims\orig\AN_1P_SKS_B_Idle.smd"
+"C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\weapons\SKS\anims\AN_1P_SKS_B_Idle.smd"
 
 $definemacro macro_fire_trigger \\
 blendlayer "delta_trigger" 0 1 10 10
@@ -237,7 +241,7 @@ $sequence "base_dryfire" {
 }
 
 $sequence "base_reload" {
-	"C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\weapons\SKS\anims\orig\an_1p_SKS_b_reload.smd"
+	"C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\weapons\SKS\anims\an_1p_SKS_b_reload.smd"
 	activity "ACT_VM_RELOAD" 1
 	fps 30
 	ikrule rhand touch "b_wpn" usesource
@@ -245,7 +249,7 @@ $sequence "base_reload" {
 }
 
 $sequence "base_reloadempty" {
-	"C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\weapons\SKS\anims\orig\an_1p_SKS_b_reload_empty.smd"
+	"C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\weapons\SKS\anims\an_1p_SKS_b_reload_empty.smd"
 	activity "ACT_VM_RELOAD_EMPTY" 1
 	fps 30
 	ikrule rhand touch "b_wpn" usesource
@@ -253,7 +257,7 @@ $sequence "base_reloadempty" {
 }
 
 $sequence "base_reload_speed" {
-	"C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\weapons\SKS\anims\orig\an_1p_SKS_b_reload_speed.smd"
+	"C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\weapons\SKS\anims\an_1p_SKS_b_reload_speed.smd"
 	activity "ACT_VM_RELOAD_SPEED" 1
 	fps 30
 	ikrule rhand touch "b_wpn" usesource
@@ -261,7 +265,7 @@ $sequence "base_reload_speed" {
 }
 
 $sequence "base_reloadempty_speed" {
-	"C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\weapons\SKS\anims\orig\an_1p_SKS_b_reload_empty_speed.smd"
+	"C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\weapons\SKS\anims\an_1p_SKS_b_reload_empty_speed.smd"
 	activity "ACT_VM_RELOAD_EMPTY_SPEED" 1
 	fps 30
 	ikrule rhand touch "b_wpn" usesource
@@ -398,25 +402,25 @@ $sequence "base_ready" {
 // nonoriginal
 
 $sequence "delta_boltback" delta {
-	"C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\weapons\SKS\anims\orig\AN_1P_SKS_B_Fire_Bolt.smd"
+	"C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\weapons\SKS\anims\AN_1P_SKS_B_Fire_Bolt.smd"
 	frames 0 10
 	weightlist "weights_boltback"
 }
 
 $sequence "delta_empty" delta {
-	"C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\weapons\SKS\anims\orig\AN_1P_SKS_B_Idle_Empty.smd"
+	"C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\weapons\SKS\anims\AN_1P_SKS_B_Idle_Empty.smd"
 	frames 0 1
 	weightlist "weights_boltback"
 }
 
 $sequence delta_trigger delta {
-	"C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\weapons\SKS\anims\orig\AN_1P_SKS_B_Fire_Trigger.smd"
+	"C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\weapons\SKS\anims\AN_1P_SKS_B_Fire_Trigger.smd"
 	frames 0 10
 	weightlist "weights_trigger"
 }
 
 // generic idle sequence
-$sequence "seq_idle" "C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\weapons\SKS\anims\orig\AN_1P_SKS_B_Idle.smd"
+$sequence "seq_idle" "C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\weapons\SKS\anims\AN_1P_SKS_B_Idle.smd"
 
 // draw
 $animation a_ik_draw "C:\Users\herjenger\AppData\Documents\GitHub\sandstorm_source_files\release\animations\gen_rif\anims\AN_1P_GEN_RIF_B_Draw.smd"
