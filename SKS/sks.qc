@@ -295,7 +295,6 @@ $sequence "base_inspect" {
 	$macro_idlesequence
 	activity "ACT_VM_FIDGET" 1
 	addlayer "delta_ik_inspect"
-	loop
 	frames 0 121
 	fps 30
 	ikrule rhand touch "b_wpn" usesource
@@ -307,7 +306,6 @@ $sequence "empty_inspect" {
 	$macro_empty_bolt
 	activity "ACT_CROSSBOW_FIDGET_UNLOADED" 1
 	addlayer "delta_ik_inspect"
-	loop
 	frames 0 121
 	fps 30
 	ikrule rhand touch "b_wpn" usesource
@@ -318,7 +316,7 @@ $sequence "base_melee" {
 	$macro_idlesequence
 	activity "ACT_VM_HITCENTER" 1
 	addlayer "delta_ik_melee"
-	loop
+	snap
 	frames 0 46
 	fps 30
 	ikrule rhand touch "b_wpn" usesource
@@ -330,7 +328,7 @@ $sequence "empty_melee" {
 	$macro_empty_bolt
 	activity "ACT_VM_MISSCENTER" 1
 	addlayer "delta_ik_melee"
-	loop
+	snap
 	frames 0 46
 	fps 30
 	ikrule rhand touch "b_wpn" usesource
